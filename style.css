@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #F7F2E7;
+    color: #333;
+}
+
+header {
+    font-family: "poppins",sans-serif;
+    background: linear-gradient(135deg, #6a82fb, #fc5c7d); /* Gradient background */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img.profile-photo {
+    width: 150px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make it circular */
+    margin-bottom: 15px; /* Spacing below the image */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ffffff; /* Keep link color white for contrast */
+    text-decoration: none;
+}
+
+section {
+    font-family: "poppins" sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #333333;
+    padding: 20px;
+    margin: 1px 0; /* Reduced margin */
+    /* background: #CA69A8; */
+    background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+}
+
+#experience, #projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+.job {
+    flex: 1 1 calc(30% - 20px); /* Adjust width for responsiveness */
+    background: #ecebeb; /* Light green background */
+    border: 3px solid rgba(0, 0, 0, 0.1); /* Green border */
+    border-radius: 16px;
+    padding: 15px;
+    font-family: "poppins",sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.job h3 {
+    margin: 0;
+}
+
+.job p {
+    margin: 5px 0;
+}
+
+.project {
+    flex: 1 1 calc(30% - 20px); /* Adjust width for responsiveness */
+    background: #ecebeb; /* Light green background */
+    border: 3px solid rgba(0, 0, 0, 0.1); /* Green border */
+    border-radius: 16px;
+    padding: 15px;
+    font-family: "poppins",sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2{
+    color: white;
+}
+
+#p1{
+    color:#ecebeb;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #35424a;
+    color: #ffffff;
+}
+
+#contact {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins",sans-serif;
+    /* text-align: center; */
+    padding: 20px; /* Add padding around the contact section */
+    /* background: #f8f9fa; Light background for the contact section */
+    background: linear-gradient(135deg, #6a82fb, #fc5c7d);
+    /* border-radius: 24px; Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+#contact-form {
+    background: #ffffff; /* White background for the form */
+    padding: 30px; /* Increased padding inside the form */
+    border-radius: 24px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px; /* Width of the form */
+}
+
+#contact-form h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    color: #35424a;
+    font-family: "poppins",sans-serif; /* Dark color for the heading */
+}
+
+#contact-form input, 
+#contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px; 
+    border: 2px solid #D3D3D3;
+    border-radius: 10px;
+    font-family: "poppins",sans-serif;
+}
+#b1{
+   text-align: center;
+    border-radius: 8px;
+    padding: 5px;
+    background-color: rgb(237, 243, 245);
+    margin-left: 15vh;
+    font-family: "poppins",sans-serif;
+    font-weight: 500;
+}
+#b1:hover{
+    padding: 7px;
+}
